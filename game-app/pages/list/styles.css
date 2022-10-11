@@ -1,0 +1,29 @@
+/* filter */
+#game-filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game-filter label {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  width: 100%;
+}
+
+#game-filter select {
+  width: 200px;
+  font-size: 19px;
+  padding: 0.85rem 0.5rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+#game-filter button {
+  font-size: 1.3rem;
+  padding: 0.85rem 2rem;
+  background-color: #64646E;
+  border: none;
+  color: #fff;
+  margin: 0 0 0 10px;
+}

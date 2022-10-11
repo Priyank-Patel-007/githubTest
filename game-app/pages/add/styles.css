@@ -1,0 +1,49 @@
+/* Fields */
+#game-add-form .field {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#game-add-form .field label {
+  display: block;
+  width: 100px;
+  line-height: 30px;
+}
+
+#game-add-form .field input,
+#game-add-form .field select {
+  width: 230px;
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: solid 1px #64646E;
+  background-color: #fff;
+}
+
+/* Checkbox */
+#game-add-form .checkbox {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#game-add-form .checkbox label {
+  display: block;
+  line-height: 20px;
+}
+
+#game-add-form .checkbox input {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 100px;
+  border: solid 1px #64646E;
+}
+
+/* Button */
+#game-add-form button {
+  font-size: 1.3rem;
+  padding: 0.85rem 2rem;
+  margin: 0 0 0 100px;
+  background-color: #64646E;
+  border: none;
+  color: #fff;
+}
